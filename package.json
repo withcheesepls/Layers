@@ -1,0 +1,23 @@
+{
+  "name": "layers",
+  "version": "1.0.0",
+  "description": "A simple website by an instagram post, involving layers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node -e 'require(`singlepagedevrefresh`)();'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/withcheesepls/Layers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/withcheesepls/Layers/issues"
+  },
+  "homepage": "https://github.com/withcheesepls/Layers#readme",
+  "devDependencies": {
+    "singlepagedevrefresh": "^1.5.1"
+  }
+}

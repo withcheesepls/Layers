@@ -1,0 +1,126 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  align-items: center;
+  background-color: rgb(245, 240, 233);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+  padding: 10px;
+}
+
+.box {
+  background-color: rgb(59, 80, 98);
+  height: 400px;
+  position: absolute;
+  width: 220px;
+}
+
+.moon {
+  background-color: rgb(245, 240, 233);
+  border-radius: 100%;
+  height: 40px;
+  margin: 45px auto auto;
+  width: 40px;
+}
+
+.mountain-layers {
+  width: 100%;
+  height: calc(100% - 85px);
+}
+
+.layer {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+}
+
+.layer-1, .layer-2, .layer-3, .layer-4, .layer-5, .layer-6 {
+  width: 100%;
+  border-top: 2px solid rgb(252, 252, 252);
+  background-color: rgb(12, 35, 52);
+}
+
+/* todo: temp for now, but should be svg */
+.layer-7, .layer-8, .layer-9, .layer-10, .layer-11, .layer-12, .layer-13, .layer-14, .layer-15, .layer16 {
+  width: 100%;
+  border-top: 2px solid rgb(252, 252, 252);
+  background-color: rgb(12, 35, 52);
+}
+
+.layer-1 {
+  height: 10px;
+}
+
+.layer-2 {
+  height: 20px;
+}
+
+.layer-3 {
+  height: 30px;
+}
+
+.layer-4 {
+  height: 40px;
+}
+
+.layer-5 {
+  height: 50px;
+}
+
+.layer-6 {
+  height: 60px;
+}
+
+.layer-7 {
+  height: 70px;
+}
+
+.layer-8 {
+  height: 80px;
+}
+
+.layer-9 {
+  height: 90px;
+}
+
+.layer-10 {
+  height: 100px;
+}
+
+.layer-11 {
+  height: 110px;
+}
+
+.layer-12 {
+  height: 120px;
+}
+
+.layer-13 {
+  height: 130px;
+}
+
+.layer-14 {
+  height: 140px;
+}
+
+.layer-15 {
+  height: 150px;
+}
+
+.layer-16 {
+  height: 160px;
+}
